@@ -2,6 +2,55 @@
 
 Author:Manai Mortadha
 
+----
+
+
+# Exercise 3: Person List App
+
+This application provides an interface with the following features:
+
+- Displaying a list of people
+- Adding a person to the list using the "Add" button
+- Opening a dialog box upon clicking an item to update a person's information
+
+## Interface Description
+
+The interface consists of:
+- A list view displaying people's information.
+- An "Add" button that allows users to add a new person to the list.
+- Clicking on an item in the list opens a dialog box to update the person's information.
+
+## Implementation Details
+
+- **MainActivity.java**: Manages the list view and handles interactions.
+- **Person.java**: Represents a Person object with attributes such as name, email, etc.
+- **PersonAdapter.java**: Manages the RecyclerView and binds data.
+- **ListItemLayout.xml**: Layout for displaying a person's information in the list.
+- **DialogLayout.xml**: Layout for the dialog box to update person's information.
+
+## Functionality
+
+- The "Add" button adds a new person to the list.
+- Clicking on an item in the list opens a dialog box to update that person's information.
+
+## How to Use
+
+1. Clone or download this repository.
+2. Open the project in Android Studio.
+3. Run the app on an emulator or a physical device.
+4. The app will display a list of people.
+5. Click on the "Add" button to add a new person.
+6. Click on an existing person in the list to update their information using the dialog box.
+
+## Customization
+
+- To modify the displayed information or add more fields, update the `Person` class and corresponding layouts.
+
+## Notes
+
+- Error handling, validation, and other enhancements can be added for a more robust application.
+- This README provides an overview; refer to the code for detailed implementation.
+
 ---
 
 # Exercise 4: Country List App
